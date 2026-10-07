@@ -1,0 +1,31 @@
+# Web API
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic-settings>=2.4
+email-validator>=2.2
+
+# Database
+sqlmodel>=0.0.22
+psycopg[binary]>=3.2
+alembic>=1.13
+pgvector>=0.3
+
+# Auth
+pyjwt>=2.9
+bcrypt>=4.2
+
+# Queue
+redis>=5.0
+rq>=2.0
+
+# Misc
+qrcode[pil]>=7.4
+prometheus-client>=0.20
+
+# ML (torch is installed separately from the CPU-only index, see Dockerfile)
+numpy>=1.26,<3
+scipy>=1.11
+opencv-python-headless>=4.10
+resemblyzer==0.1.4
+librosa>=0.10

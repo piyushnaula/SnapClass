@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+backend/media/
+backend/models/
+backend/eval/report*.json
+
+# Personal data (evaluation datasets) must never be committed
+data/
+
+# Node
+node_modules/
+frontend/dist/
